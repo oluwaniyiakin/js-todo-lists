@@ -1,8 +1,43 @@
-# VS Code settings
-.vscode/
-
-# Node dependencies
+# Node.js dependencies
 node_modules/
 
-# macOS system file
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm/
+
+# dotenv environment variable files
+.env
+.env.local
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS metadata
 .DS_Store
+Thumbs.db
+
+# Build outputs (if using bundlers like Webpack)
+dist/
+build/
+
+# Coverage files from tests
+coverage/
+
+# Optional lock files
+package-lock.json
+yarn.lock
+
+# Test snapshot files (if using Jest or similar)
+__snapshots__/
+
+# Misc
+*.swp
+*.swo
+*.bak
