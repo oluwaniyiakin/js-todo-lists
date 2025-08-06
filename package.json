@@ -1,0 +1,29 @@
+{
+  "name": "js-todo-app",
+  "version": "1.0.0",
+  "description": "A simple JavaScript-based To-Do list application with modular structure and optional recursion.",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "live-server public",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": [
+    "todo",
+    "javascript",
+    "vanilla-js",
+    "task-manager",
+    "frontend"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "live-server": "^1.2.2"
+  },
+  "type": "module"
+}
